@@ -20,7 +20,18 @@ public abstract class AbstractAlgorithm {
         quickSort(arr, j + 1, r);
     }
 
-
+    /**   实际上就是遍历一颗多叉树，只不过这棵树的Node比较复杂
+    public static void backTracking(参数){
+        if(终止条件){  递归结束
+            存放结果;
+            return ;
+        }
+        for(选择: 本层集合中元素){
+            处理节点;
+            backTracking(路径，选择列表);
+            回撤结果
+        }
+    }*/
     public static void main(String[] args) {
 
     }
